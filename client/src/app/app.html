@@ -1,3 +1,8 @@
 <app-nav/>
 
-<app-home />
+<div 
+[class.mt-24]="router.url!== '/'"
+[class.ng-container]="router.url !=='/'"
+[class.ng-auto]="router.url !=='/'">
+    <router-outlet/>
+</div>
