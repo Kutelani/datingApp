@@ -15,6 +15,12 @@
       "request": "launch",
       "preLaunchTask": "npm: test",
       "url": "http://localhost:9876/debug.html"
-    }
+    },
+    {
+  "name": "Vercel production",
+  "type": "chrome",
+  "request": "launch",
+  "url": "https://dating-app-o94c.vercel.app/"
+}
   ]
 }
